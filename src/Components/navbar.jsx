@@ -25,7 +25,7 @@ function navbar() {
     <Navbar bg="light" expand="lg">
     <Container fluid>
     
-      <LinkContainer to="/" style={margin}>
+      <LinkContainer to="/web/" style={margin}>
         <Navbar.Brand><img src={Logo} style={{height:'30px'}}/> PC Component World</Navbar.Brand>
       </LinkContainer>
       
@@ -37,7 +37,7 @@ function navbar() {
           navbarScroll
         >
           
-          <LinkContainer to="/">
+          <LinkContainer to="/web/">
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
 
@@ -100,73 +100,73 @@ function navbar() {
           </Dropdown> */}
 
           <NavDropdown title="CPU" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/component/cpu_amd" name="AMD"/>
-            <LinkContainerDropdown route="/component/cpu_intel" name="Intel"/>  
-            <LinkContainerDropdown route="/component/cpu" name="All"/>  
+            <LinkContainerDropdown route="/web/component/cpu_amd" name="AMD"/>
+            <LinkContainerDropdown route="/web/component/cpu_intel" name="Intel"/>  
+            <LinkContainerDropdown route="/web/component/cpu" name="All"/>  
           </NavDropdown>
 
           <NavDropdown title="GPU" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="AMD"/>
-            <LinkContainerDropdown route="/" name="Nvidia"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="AMD"/>
+            <LinkContainerDropdown route="/web/" name="Nvidia"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Memory" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="Crucial"/>
-            <LinkContainerDropdown route="/" name="Corsair"/>
-            <LinkContainerDropdown route="/" name="G.Skill"/>
-            <LinkContainerDropdown route="/" name="Kingston"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="Crucial"/>
+            <LinkContainerDropdown route="/web/" name="Corsair"/>
+            <LinkContainerDropdown route="/web/" name="G.Skill"/>
+            <LinkContainerDropdown route="/web/" name="Kingston"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Motherboard" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="ASRock"/>
-            <LinkContainerDropdown route="/" name="Asus"/>
-            <LinkContainerDropdown route="/" name="EVGA"/>
-            <LinkContainerDropdown route="/" name="Gigabyte"/>
-            <LinkContainerDropdown route="/" name="MSI"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="ASRock"/>
+            <LinkContainerDropdown route="/web/" name="Asus"/>
+            <LinkContainerDropdown route="/web/" name="EVGA"/>
+            <LinkContainerDropdown route="/web/" name="Gigabyte"/>
+            <LinkContainerDropdown route="/web/" name="MSI"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Storage" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="Crucial"/>
-            <LinkContainerDropdown route="/" name="Kingston"/>
-            <LinkContainerDropdown route="/" name="Samsung"/>
-            <LinkContainerDropdown route="/" name="Seagate"/>
-            <LinkContainerDropdown route="/" name="Western Digital"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="Crucial"/>
+            <LinkContainerDropdown route="/web/" name="Kingston"/>
+            <LinkContainerDropdown route="/web/" name="Samsung"/>
+            <LinkContainerDropdown route="/web/" name="Seagate"/>
+            <LinkContainerDropdown route="/web/" name="Western Digital"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Power Supplies" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="Asus"/>
-            <LinkContainerDropdown route="/" name="Cooler Master"/>
-            <LinkContainerDropdown route="/" name="Corsair"/>
-            <LinkContainerDropdown route="/" name="EVGA"/>
-            <LinkContainerDropdown route="/" name="Gigabyte"/>
-            <LinkContainerDropdown route="/" name="MSI"/>
-            <LinkContainerDropdown route="/" name="SeaSonic"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="Asus"/>
+            <LinkContainerDropdown route="/web/" name="Cooler Master"/>
+            <LinkContainerDropdown route="/web/" name="Corsair"/>
+            <LinkContainerDropdown route="/web/" name="EVGA"/>
+            <LinkContainerDropdown route="/web/" name="Gigabyte"/>
+            <LinkContainerDropdown route="/web/" name="MSI"/>
+            <LinkContainerDropdown route="/web/" name="SeaSonic"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Case" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="Cooler Master"/>
-            <LinkContainerDropdown route="/" name="Corsair"/>
-            <LinkContainerDropdown route="/" name="Lian Li"/>
-            <LinkContainerDropdown route="/" name="MSI"/>
-            <LinkContainerDropdown route="/" name="NZXT"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="Cooler Master"/>
+            <LinkContainerDropdown route="/web/" name="Corsair"/>
+            <LinkContainerDropdown route="/web/" name="Lian Li"/>
+            <LinkContainerDropdown route="/web/" name="MSI"/>
+            <LinkContainerDropdown route="/web/" name="NZXT"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
 
           <NavDropdown title="Monitor" id="navbarScrollingDropdown">
-            <LinkContainerDropdown route="/" name="Acer"/>
-            <LinkContainerDropdown route="/" name="Alienware"/>
-            <LinkContainerDropdown route="/" name="AOC"/>
-            <LinkContainerDropdown route="/" name="Asus"/>
-            <LinkContainerDropdown route="/" name="Dell"/>
-            <LinkContainerDropdown route="/" name="LG"/>
-            <LinkContainerDropdown route="/" name="MSI"/>
-            <LinkContainerDropdown route="/" name="Samgsung"/>
-            <LinkContainerDropdown route="/" name="All"/>
+            <LinkContainerDropdown route="/web/" name="Acer"/>
+            <LinkContainerDropdown route="/web/" name="Alienware"/>
+            <LinkContainerDropdown route="/web/" name="AOC"/>
+            <LinkContainerDropdown route="/web/" name="Asus"/>
+            <LinkContainerDropdown route="/web/" name="Dell"/>
+            <LinkContainerDropdown route="/web/" name="LG"/>
+            <LinkContainerDropdown route="/web/" name="MSI"/>
+            <LinkContainerDropdown route="/web/" name="Samgsung"/>
+            <LinkContainerDropdown route="/web/" name="All"/>
           </NavDropdown>
         </Nav>
         <Form className="d-flex" style={margin}>

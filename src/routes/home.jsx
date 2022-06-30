@@ -14,7 +14,7 @@ import Monitor from '../image/Monitor.png';
 export default function Home(){
   let names = ['CPU', 'GPU', 'Memory', 'Motherboard', 'Storage', 'Power Supplies', 'Case', 'Monitor'];
   let img = [CPU, GPU, Memory, Motherboard, Storage, PSU , Case, Monitor];
-  let links = ['/component/cpu', '/', '/', '/', '/', '/', '/', '/'];
+  let links = ['/web/component/cpu', '/web/', '/web/', '/web/', '/web/', '/web/', '/web/', '/web/'];
 
   alert("Currently, only the CPU page is implemented. The search and price filter is not implemented yet. The product details after clicking a project is limited. Tutorial section is not implemented yet.")
 
