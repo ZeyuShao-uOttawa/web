@@ -12,16 +12,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/web/" element={<Home />} />
 
-      <Route path="/component/cpu" element={<Component type='CPU' filter='none'/>} />
-      <Route path="/component/cpu_amd" element={<Component type='CPU' filter='amd'/>} />
-      <Route path="/component/cpu_intel" element={<Component type='CPU' filter='intel'/>} />
+      <Route path="/web/component/cpu" element={<Component type='CPU' filter='none'/>} />
+      <Route path="/web/component/cpu_amd" element={<Component type='CPU' filter='amd'/>} />
+      <Route path="/web/component/cpu_intel" element={<Component type='CPU' filter='intel'/>} />
       
 
-      <Route path="/component/gpu" element={<Component type='GPU' filter='none'/>} />
-      <Route path="/component/gpu_amd" element={<Component type='GPU' filter='amd'/>} />
-      <Route path="/component/gpu_nvidia" element={<Component type='GPU' filter='nvidia'/>} />
+      <Route path="/web/component/gpu" element={<Component type='GPU' filter='none'/>} />
+      <Route path="/web/component/gpu_amd" element={<Component type='GPU' filter='amd'/>} />
+      <Route path="/web/component/gpu_nvidia" element={<Component type='GPU' filter='nvidia'/>} />
     </Routes>
   </BrowserRouter>
 );
